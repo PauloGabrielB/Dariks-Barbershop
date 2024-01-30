@@ -2,7 +2,7 @@
 const Projetos = () => {
   return (
     <>
-    <h1  id="projetos" className="title-projetos">Projetos</h1>
+    <h1  id="serviços" className="title-projetos">Serviços</h1>
     <div className="projetos-container">
       <div className="projeto">
         <h3>Landing Page Foody</h3>

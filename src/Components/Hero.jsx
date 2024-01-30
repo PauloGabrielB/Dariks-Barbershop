@@ -6,16 +6,17 @@ function Hero() {
         <section className="container">
             <div className="conteudo" id="home">
             <div className="container-text">
-                <h1 className="my-h1">Olá, me chamo</h1>
-                <h2 className="my-h2">Paulo Gabriel</h2>
-                <h2 className="my-h3">sou Desenvolvedor Web</h2>
-                <p className="my-p">Codificando o futuro, linha por linha.</p>
+                <h1 className="my-h1"></h1>
+                <h2 className="my-h2">Dariks</h2>
+                <h2 className="my-h3">Barbershop</h2>
+                <p className="my-p">Transformamos cabelos em obras de arte, um corte de cada vez.</p>
             </div>
         <div className="obj">
-                <div className="objchild">
-                    <span className="inn6"></span>
-                </div>
+            <div className="obj-text">
+                <p>Reserve seu Horario. Agende agora!</p>
+                <a href=""><button>WhatsApp</button></a>
             </div>
+        </div>
         </div>
         </section>      
         </>
