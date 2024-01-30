@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # Meu-Portfolio
 # Dariks-Barbershop
 # Dariks-Barbershop
+# Dariks-Barbershop
