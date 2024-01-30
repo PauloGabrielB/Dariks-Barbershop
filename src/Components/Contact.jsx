@@ -12,7 +12,7 @@ const Contact = () => {
           <i className="fab fa-github"></i>
           <span>Github</span>
         </a>
-        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/" target="_blank" rel="noopener noreferrer" className="contact-us-button linkedin">
+        <a href="https://www.linkedin.com/in/paulogabrielb" target="_blank" rel="noopener noreferrer" className="contact-us-button linkedin">
           <i className="fab fa-linkedin-in"></i>
           <span>LinkedIn</span>
         </a>
