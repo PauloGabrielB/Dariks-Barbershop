@@ -70,9 +70,8 @@ nav {
 }
 .container-text {
     max-width: 900px;
-    margin: 0 auto;
-    margin-bottom: 280px;
-    margin-top: 20px;
+  
+    margin-top: 0px;
 }
 .my-h1 {
     font-size: 40px;
@@ -103,24 +102,24 @@ nav {
 }
 
 .obj {
-    width: 550px;
-    height: 430px;
+    width: 300px;
+    height: 250px;
     border-radius: 20px;
     margin-top: 30px;
-    background-image: url('./Img/img3.jpeg');
+    background-image: url('./Img/dariks-logo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-left: 200px;
   }
 .obj-text {
-    width: 400px;
+    width: 300px;
     height: 100px;
     border-radius: 10px;
-    margin-left: 80px;
-    margin-top: 30px;
+    margin-right: 100px;
+    margin-top: 300px;
     backdrop-filter: blur(10px); /* Adicione o valor de desfoque desejado */
-    background-color: rgba(255, 255, 255, 0.151); /* Ajuste a cor de fundo e a opacidade conforme necessário */ 
+    background-color: rgba(0, 0, 0, 0.459); /* Ajuste a cor de fundo e a opacidade conforme necessário */ 
 }
 .obj-text a {
   display: flex;
@@ -192,12 +191,13 @@ nav {
   width: 300px;
   margin: 0;
   padding: 0;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 .obj-text {
   width: 200px;
   height: 120px;
   margin-left: 50px;
+  margin-bottom: 100px;
 }
 }
 
@@ -297,31 +297,18 @@ nav {
   
   .contact-us-button {
     display: flex;
-    flex-direction: column;
+    border: 3px solid;
+    width: 50px;
+    height: 50px;
     align-items: center;
     justify-content: center;
-    width: 130px;
-    height: 60px;
-    background-color: #fff;
-    border-radius: 10%;
-    border: 1px solid black;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
   }
-  
-  .contact-us-button:hover {
-    transform: translateY(-10px);
-  }
-  
-  .contact-us-button i {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .contact-us-button span {
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+
+  .icon {
+    font-size: 40px;
+    color: black;
+    /* padding-right: 10px; */
   }
 
   /* Footer */

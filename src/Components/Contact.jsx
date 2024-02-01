@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const Contact = () => {
   return (
@@ -5,12 +8,10 @@ const Contact = () => {
       <h2 className="contact-us-title">Entre em Contato</h2>
       <div className="contact-us-buttons">
         <a href="https://api.whatsapp.com/send/?phone=5585988392477&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="contact-us-button whatsapp">
-          <i className="fab fa-whatsapp"></i>
-          <span>WhatsApp</span>
+        <FontAwesomeIcon className='icon' icon={faWhatsapp} />
         </a>
         <a href="https://www.instagram.com/dariksbarbershop" target="_blank" rel="noopener noreferrer" className="contact-us-button github">
-          <i className="fab fa-github"></i>
-          <span>Instagram</span>
+        <FontAwesomeIcon className='icon' icon={faInstagram} />
         </a>
       </div>
     </section>

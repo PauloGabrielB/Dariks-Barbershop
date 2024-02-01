@@ -2,7 +2,7 @@ import './App.css'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Service from './Components/Service'
-import Local from './Components/Local'
+// import Local from './Components/Local'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 
