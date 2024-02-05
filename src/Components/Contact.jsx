@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 const Contact = () => {
   return (
     <section id="contato" className="contact-us">
-      <h2 className="contact-us-title">Entre em Contato</h2>
+      <h2 className="contact-us-title">Contato</h2>
       <div className="contact-us-buttons">
         <a href="https://api.whatsapp.com/send/?phone=5585988392477&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="contact-us-button whatsapp">
         <FontAwesomeIcon className='icon' icon={faWhatsapp} />
